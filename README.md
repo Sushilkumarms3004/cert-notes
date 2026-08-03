@@ -1,46 +1,28 @@
-# Cyber Security Notes — GitHub Pages starter
+# Cyber Security Study Notes
 
-Quick-recall study notes blog for CEH v13 + Networkers Home cert prep.
-Built with Jekyll's default GitHub Pages support — **no local install needed**,
-GitHub builds it for you.
+Short-form study notes and lab write-ups by **Sushil Kumar M S**, M.Tech CSE (Cybersecurity) at MIT Manipal, MAHE. Notes cover **CEH v13** and the **Networkers Home Full Stack Cyber & Cloud Security** program.
 
-## One-time setup (5 min)
+Each post is a quick-recall summary: key concepts, commands/tools, interview-style Q&A, and exam-relevant points.
 
-1. Create a new GitHub repo, e.g. `cert-notes` (public).
-2. Upload everything in this folder to the repo root.
-3. Go to repo **Settings → Pages**.
-4. Under "Build and deployment", set **Source: Deploy from a branch**,
-   branch: `main`, folder: `/ (root)`. Save.
-5. Wait ~1 min, your site is live at:
-   `https://<your-username>.github.io/cert-notes/`
-6. If the repo name isn't `cert-notes`, uncomment and set `baseurl` in
-   `_config.yml` to match your repo name.
+**Live site:** https://sushilkumar-ms.github.io/cert-notes
 
-## Adding a new note (per module/lab)
+## CEH v13 modules
 
-1. Copy `notes/TEMPLATE.md`'s content block.
-2. Save it as a new file inside `_ceh/` or `_networkers-home/`
-   (e.g. `_ceh/module-02-footprinting.md`).
-3. Fill in the sections — key concepts, commands, Q&A, cert-relevant points.
-4. Commit + push. Site rebuilds automatically in ~1 min.
-
-## Adding to your resume
-
-Under "Projects" or "Technical Writing":
-
-> **Cyber Security Study Notes** — `github.com/<you>/cert-notes`
-> Ongoing technical blog documenting CEH v13 and cloud security cert prep,
-> including lab write-ups and tool usage notes.
-
-## Folder structure
-
-```
-cert-notes-blog/
-├── _config.yml          # site settings
-├── index.md              # homepage
-├── about.md               # about page
-├── _ceh/                  # CEH v13 module notes (auto-listed)
-├── _networkers-home/      # Networkers Home program notes (auto-listed)
-├── notes/TEMPLATE.md      # copy this for every new note
-└── _posts/                # optional: for date-based general posts
-```
+- Module 01 — Intro to Ethical Hacking
+- - Module 02 — Footprinting & Reconnaissance
+  - - Module 03 — Scanning Networks
+    - - Module 04 — Enumeration
+     
+      - ## Networkers Home
+     
+      - - CCNA — OSI Model & TCP/IP
+       
+        - ## Adding a new note
+       
+        - 1. Open the `_ceh/` or `_networkers-home/` folder
+          2. 2. **Add file → Create new file**
+             3. 3. Name it (e.g. `module-05-vulnerability-analysis.md`)
+                4. 4. Add front matter + sections, then **Commit changes**
+                  
+                   5. The site rebuilds automatically in ~1 minute.
+                   6. 
